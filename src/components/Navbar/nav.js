@@ -20,20 +20,20 @@ const useStyles = makeStyles((theme) => ({
   appbar: {
     backgroundColor: "white",
     boxShadow: "none",
-    alignItems: "center"
+    alignItems: "center",
   },
   tabs: {
     color: "black",
     textDecoration: "none",
     textTransform: "lowercase",
-    background: "transparent"
+    background: "transparent",
   },
   sharlenemay: {
     color: "black",
     textDecoration: "none",
     textTransform: "none",
     fontWeight: 700,
-    fontSize: 20
+    fontSize: 20,
   },
   link: {
     textDecoration: "none",
@@ -71,30 +71,13 @@ export default function Navbar() {
     setAnchorEl(!anchorEl);
   };
 
-  const handleRedirectAbout = () => {
-    window.location.pathname = "/about";
-  };
-
-  const handleRedirectProjects = () => {
-    window.location.pathname = "/projects";
-  };
-
-  const handleRedirectContact = () => {
-    window.location.pathname = "/contact";
-  };
-
   return (
     <div className={classes.root}>
       <AppBar className={classes.appbar}>
         <Toolbar className={classes.padding}>
-
           <Tabs className={(classes.appbar, "menuburger")}>
-
             <Link className={(classes.link, "sharlenemay")} to="/">
-              <Tab 
-              className={classes.sharlenemay}
-              label="Sharlene May"
-              />
+              <Tab className={classes.sharlenemay} label="Sharlene May" />
             </Link>
 
             <IconButton
@@ -117,44 +100,35 @@ export default function Navbar() {
             >
               <MenuItem
                 className={classes.menuItem}
-                onClick={handleRedirectAbout}
+                component={Link}
+                to="/about"
               >
                 about
               </MenuItem>
               <MenuItem
                 className={classes.menuItem}
-                onClick={handleRedirectProjects}
+                component={Link}
+                to="/projects"
               >
                 projects
               </MenuItem>
               <MenuItem
                 className={classes.menuItem}
-                onClick={handleRedirectContact}
+                component={Link}
+                to="/contact"
               >
                 contact
               </MenuItem>
             </Menu>
 
             <Link className={(classes.link, "navtab")} to="/about">
-              <Tab
-                className={classes.tabs
-                }
-                label="About"
-              />
+              <Tab className={classes.tabs} label="About" />
             </Link>
             <Link className={(classes.link, "navtab")} to="/projects">
-              <Tab
-                className={classes.tabs
-                }
-                label="Projects"
-              />
+              <Tab className={classes.tabs} label="Projects" />
             </Link>
             <Link className={(classes.link, "navtab")} to="/contact">
-              <Tab
-                className={classes.tabs
-                }
-                label="Contact"
-              />
+              <Tab className={classes.tabs} label="Contact" />
             </Link>
           </Tabs>
         </Toolbar>
