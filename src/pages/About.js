@@ -72,7 +72,7 @@ export default function About() {
             <Paper className={classes.paper}>
               <h4>Web Development</h4>
               <p>
-                I'm a MERN full stack web developer with my specialization in front end development.
+                I'm a MERN full stack web developer with my specialization in front end development. 
               </p>
               <h4>Education</h4>
               <p>
