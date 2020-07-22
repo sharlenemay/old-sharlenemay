@@ -24,7 +24,9 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "left",
     margin: "5%",
   },
-
+  h3: {
+    fontStyle: "italic"
+  },
   button: {
     backgroundColor: "black",
     color: "white",
@@ -40,27 +42,29 @@ export default function About() {
         <Grid container spacing={3}>
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <Paper className={classes.paper}>
+              <h3 className={classes.h3}>
+                My mission in life is not merely to survive, but to thrive; and
+                to do so with some passion, some compassion, some humor, and
+                some style. <br/> - Maya Angelou
+              </h3>
               <h4>About Me</h4>
               <p>
-                Hello! I'm Sharlene (also known as May) and I'm a Full Stack Web
-                Developer with a background in the Social Sciences and
-                Humanities and a budding passion for UX Research and Web Design.
+                I'm Sharlene May, a Full Stack Web Developer with a background
+                in the Social Sciences and Humanities and a budding passion for
+                UX Research and UX Design. I'm interested in all things human
+                and digital. When I'm not coding, I dedicate my time to
+                researching and writing about emerging media, environmental
+                sustainability, and everything in between. Blogging about slow
+                fashion is my hobby and fencing is my sport.
               </p>
               <p>
-                I have interest in all things both human and digital. When I'm
-                not coding, I dedicate my time to researching and writing about
-                emerging media, environmental sustainability, racial injustice,
-                and everything in between. I'm also a slow fashion activist and
-                tiny house enthusiast.
-              </p>
-              <p>
-                Since graduating with my Bachelor’s degree, I've worked in
-                non-profit and corporate settings near and far; from my home
-                city of Los Angeles to the suburbs of Tokyo and rural Japan.
-                Having experienced life in different parts of the world, my goal
-                is to bring people together through inclusive and inspiring
-                digital platforms and the optimization of human-centered web
-                applications across diverse cultural environments.
+                Since graduating university, I've worked in non-profit and
+                corporate settings near and far; from my home city of Los
+                Angeles to the suburbs of Tokyo and rural Japan. Having
+                experienced life in different parts of the world, my goal is to
+                bring people together through the development of inclusive UX
+                Design and the optimization of human-centered digital platforms
+                across diverse cultural contexts.
               </p>
             </Paper>
           </Grid>
