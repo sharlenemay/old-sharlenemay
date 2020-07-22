@@ -49,11 +49,11 @@ export default function About() {
               </h3>
               <h4>About Me</h4>
               <p>
-                I'm Sharlene May, a Full Stack Web Developer with a background
-                in the Social Sciences and Humanities and a budding passion for
-                UX Research and UX Design. I'm interested in all things human
-                and digital. When I'm not coding, I dedicate my time to
-                researching and writing about emerging media, environmental
+                I'm Sharlene May, a Bootcamp-trained Full Stack Web Developer with a budding passion for
+                UX Research and UX Design. I have a background
+                in Linguistic Anthropology and Humanities research as I'm interested in all things human
+                and digital. Alongside web development, I dedicate my time to
+                reading and writing about emerging media, environmental
                 sustainability, and everything in between. Blogging about slow
                 fashion is my hobby and fencing is my sport.
               </p>
@@ -63,7 +63,7 @@ export default function About() {
                 Angeles to the suburbs of Tokyo and rural Japan. Having
                 experienced life in different parts of the world, my goal is to
                 bring people together through the development of inclusive UX
-                Design and the optimization of human-centered digital platforms
+                Engineering and the optimization of human-centered digital platforms
                 across diverse cultural contexts.
               </p>
             </Paper>
@@ -73,6 +73,10 @@ export default function About() {
               <h4>Web Development</h4>
               <p>
                 I'm a MERN full stack web developer with my specialization in front end development. 
+              </p>
+              <h4>Research</h4>
+              <p>
+                My skills and past practices in ethnographic research include interviewing, transcription, conversation analysis, and quantitative data analysis.
               </p>
               <h4>Education</h4>
               <p>

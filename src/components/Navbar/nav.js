@@ -115,9 +115,9 @@ export default function Navbar() {
               <MenuItem
                 className={classes.menuItem}
                 component={Link}
-                to="/contact"
+                to="/research"
               >
-                contact
+                research
               </MenuItem>
             </Menu>
 
@@ -127,8 +127,8 @@ export default function Navbar() {
             <Link className={(classes.link, "navtab")} to="/projects">
               <Tab className={classes.tabs} label="Projects" />
             </Link>
-            <Link className={(classes.link, "navtab")} to="/contact">
-              <Tab className={classes.tabs} label="Contact" />
+            <Link className={(classes.link, "navtab")} to="/research">
+              <Tab className={classes.tabs} label="research" />
             </Link>
           </Tabs>
         </Toolbar>

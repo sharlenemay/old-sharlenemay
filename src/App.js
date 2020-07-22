@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/nav";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
+import Research from "./pages/Research";
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
           <Route exact path="/projects">
             <Portfolio />
           </Route>
-          <Route exact path="/contact">
-            <Contact />
+          <Route exact path="/research">
+            <Research />
           </Route>
         </Switch>
         {/* <Footer /> */}

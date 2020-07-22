@@ -41,10 +41,7 @@ export default function CenteredGrid() {
         <Paper className={classes.paper}>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={12} md={6} lg={6}>
-              <h4>Say Hello!</h4>
-              <p>
-                Feel free to connect with me on LinkedIn, Github, or Instagram.
-              </p>
+              <h4>Under construction.</h4>
             </Grid>
             <Grid item xs={12} sm={12} md={6} lg={6}></Grid>
           </Grid>

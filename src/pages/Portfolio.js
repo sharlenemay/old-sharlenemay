@@ -38,12 +38,17 @@ export default function Portfolio() {
     <div className={classes.root}>
       <Container className={classes.container}>
         <Grid container spacing={3}>
-            <Grid item xs={12}>
+          <Grid item xs={12}>
+            <Paper className={classes.paper}>
+              <h4>Under construction.</h4>
+            </Paper>
+          </Grid>
+          {/* <Grid item xs={12}>
                 <Paper className={classes.paper}>
                     <h4>Dinner and a Movie</h4>
                 </Paper>
-            </Grid>
-            <Grid item xs={12}>
+            </Grid> */}
+          {/* <Grid item xs={12}>
                 <Paper className={classes.paper}>
                     <h4>Selfcare Sidekick</h4>
                 </Paper>
@@ -52,7 +57,7 @@ export default function Portfolio() {
                 <Paper className={classes.paper}>
                     <h4>The Space Hub</h4>
                 </Paper>
-            </Grid>
+            </Grid> */}
         </Grid>
       </Container>
     </div>
