@@ -79,7 +79,7 @@ export default function About() {
                 Boston University, College of Communication (BU COM)
                 <br /> Master of Arts Candidate in Emerging Media Studies -
                 expected Graduation May 2022
-              </p>
+              </p> 
               <p>
                 University of California, Los Angeles (UCLA)
                 <br />
