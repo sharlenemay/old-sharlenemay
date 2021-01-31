@@ -7,6 +7,9 @@ export default function About() {
   return (
     <div className="main">
       <Row>
+      <Col xs={12} sm={12} md={6} lg={6}>
+        <img src={img} alt="autumn colors"></img>
+        </Col>
         <Col xs={12} sm={12} md={6} lg={6}>
           <h3 className="green">
             User Researcher, Experience Designer
@@ -39,9 +42,7 @@ export default function About() {
             Humanities - Magna Cum Laude 2018
           </p>
         </Col>
-        <Col xs={12} sm={12} md={6} lg={6}>
-        <img src={img} alt="autumn colors"></img>
-        </Col>
+
       </Row>
     </div>
   );
