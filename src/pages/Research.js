@@ -1,52 +1,35 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { Paper, Grid, Container } from "@material-ui/core";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    alignContent: "center",
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "left",
-    color: theme.palette.text.secondary,
-    boxShadow: "none",
-    left: "340px"
-  },
-  container: {
-    paddingTop: "10vh",
-    paddingBottom: "12vh",
-    height: "100vh",
-  },
-  h2: {
-    color: "black",
-    textAlign: "left",
-    margin: "5%",
-  },
-
-  button: {
-    backgroundColor: "black",
-    color: "white",
-  },
-}));
-
 export default function CenteredGrid() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <Container className={classes.container}>
-        <Paper className={classes.paper}>
-          <Grid container spacing={3}>
-            <Grid item xs={12} sm={12} md={6} lg={6}>
-              <h4>Under construction.</h4>
-            </Grid>
-            <Grid item xs={12} sm={12} md={6} lg={6}></Grid>
-          </Grid>
-        </Paper>
-      </Container>
+    <div className="main">
+      <h1>
+        <a
+          href="https://drive.google.com/file/d/1vTYZClJ-M4zdlhrJoMwCnQZZOJ6-ohfz/view?usp=sharing"
+          target="_blank"
+        >
+          My Face, My Choice: Plastic Surgery and the Modern Woman in
+          Contemporary South Korea - Independent Research
+        </a>
+      </h1>
+      <h5>UCLA Department of Asian Humanities, Spring 2018</h5>
+      <Link to="/a118">
+        <h1>Tracing Genetic Relationships - Independent Research Project</h1>
+      </Link>
+      <h5>UCLA Department of Anthropology, Spring 2017</h5>
+      <h1>
+        <a
+          href="https://drive.google.com/file/d/1Fim5pedV0XS2YeODbv7FvWNe1eCDxurD/view?usp=sharing"
+          target="_blank"
+        >
+          An Analysis of Female Identity and Nationalism in Dekada '70 -
+          Independent Writing Assignment
+        </a>
+      </h1>
+      <h5>UCLA Department of Asian Humanities, Spring 2017</h5>
     </div>
   );
 }

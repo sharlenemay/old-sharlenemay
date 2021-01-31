@@ -1,3 +1,6 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 p {
   color: black;
   font-style: normal;
@@ -11,8 +14,44 @@ p {
 h4 {
     color: black;
     font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h5 {
+  font-weight: 700 !important;
 }
 img {
+  width: 100%;
+}
+a {
+  color: black !important;
+}
+/* #landingImg {
     height: auto;
     max-width: 75%;
+    margin: 5vh 3vw;
+} */
+.main {
+  margin: 2vh 4vw 0vh 4vw !important;
+  padding-bottom: 5rem;
+  position: relative;
+  min-height: calc(100vh - 170px);
 }
+.project {
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.green {
+  color: #A9BF7A;
+  margin: 0vh 0vw 2vh 0vw;
+  font-style:italic;
+}
+.body-img {
+  margin-top: 2vh;
+}
+
+/* @media only screen and (max-width: 300px) {
+
+} */

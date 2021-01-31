@@ -1,65 +1,82 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { Paper, Grid, Container } from "@material-ui/core";
+import React, { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import jothefish from "../photos/jothefish.png";
+import wikalang from "../photos/wikalang-01-01.png";
+import purito from "../photos/purito1.png";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    alignContent: "center",
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: "left",
-    color: theme.palette.text.secondary,
-    boxShadow: "none",
-  },
-  container: {
-    paddingTop: "10vh",
-    paddingBottom: "12vh",
-    height: "100vh",
-  },
-  h2: {
-    color: "black",
-    textAlign: "left",
-    margin: "5%",
-  },
-
-  button: {
-    backgroundColor: "black",
-    color: "white",
-  },
-}));
-
 export default function Portfolio() {
-  const classes = useStyles();
+  function fade(e) {
+    e.target.style.opacity = "0.75";
+  }
+  function fadeOut(e) {
+    e.target.style.opacity = "1";
+  }
 
   return (
-    <div className={classes.root}>
-      <Container className={classes.container}>
-        <Grid container spacing={3}>
-          <Grid item xs={12}>
-            <Paper className={classes.paper}>
-              <h4>Under construction.</h4>
-            </Paper>
-          </Grid>
-          {/* <Grid item xs={12}>
-                <Paper className={classes.paper}>
-                    <h4>Dinner and a Movie</h4>
-                </Paper>
-            </Grid> */}
-          {/* <Grid item xs={12}>
-                <Paper className={classes.paper}>
-                    <h4>Selfcare Sidekick</h4>
-                </Paper>
-            </Grid>
-            <Grid item xs={12}>
-                <Paper className={classes.paper}>
-                    <h4>The Space Hub</h4>
-                </Paper>
-            </Grid> */}
-        </Grid>
-      </Container>
+    <div className="main">
+      {/* <Row className="main">
+        <h4 className="green">
+          Hi, I'm Sharlene May.
+          <br/>I research.
+          <br/>I design.
+          <br/>I code.
+        </h4>
+      </Row> */}
+      <Row>
+      <Col xs={12} sm={12} md={6} lg={6}>
+          <Link to="/purito">
+            <img
+              src={purito}
+              className="project"
+              alt="purito"
+              onMouseOver={fade}
+              onMouseOut={fadeOut}
+            />
+            <h5>Purito, Brand Redesign Project</h5>
+          </Link>
+        </Col>
+        <Col xs={12} sm={12} md={6} lg={6}>
+          <Link to="/jothefish">
+            <img
+              src={jothefish}
+              className="project"
+              alt="jo the fish"
+              onMouseOver={fade}
+              onMouseOut={fadeOut}
+            />
+            <h5>Jo the Fish, Front-end Development</h5>
+          </Link>
+        </Col>
+      </Row>
+      {/* <Row>
+        <Col xs={12} sm={12} md={6} lg={6}>
+          <Link to="/eso">
+            <img
+              src={wikalang}
+              className="project"
+              alt="eso"
+              onMouseOver={fade}
+              onMouseOut={fadeOut}
+            />
+            <h5>Boston University Environmental Student Organization, UX Research and Design</h5>
+          </Link>
+        </Col>
+        <Col xs={12} sm={12} md={6} lg={6}>
+          <Link to="/wikalang">
+            <img
+              src={wikalang}
+              className="project"
+              alt="wikalang"
+              onMouseOver={fade}
+              onMouseOut={fadeOut}
+            />
+            <h5>Wika Lang, UX Design for a Language Learning Mobile Application</h5>
+          </Link>
+        </Col>
+
+      </Row> */}
     </div>
   );
 }
