@@ -1,23 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ef7f006.chunk.css",
-    "main.js": "/static/js/main.5c266281.chunk.js",
-    "main.js.map": "/static/js/main.5c266281.chunk.js.map",
+    "main.css": "/static/css/main.6135efb7.chunk.css",
+    "main.js": "/static/js/main.61a47eca.chunk.js",
+    "main.js.map": "/static/js/main.61a47eca.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95947104.js",
     "runtime-main.js.map": "/static/js/runtime-main.95947104.js.map",
-    "static/js/2.fadb702b.chunk.js": "/static/js/2.fadb702b.chunk.js",
-    "static/js/2.fadb702b.chunk.js.map": "/static/js/2.fadb702b.chunk.js.map",
+    "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.f52a705d.chunk.js": "/static/js/2.f52a705d.chunk.js",
+    "static/js/2.f52a705d.chunk.js.map": "/static/js/2.f52a705d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.926240639694f01c4808d2b18497d541.js": "/precache-manifest.926240639694f01c4808d2b18497d541.js",
+    "precache-manifest.15934f27155dac6c2aaa635d1f0eb09f.js": "/precache-manifest.15934f27155dac6c2aaa635d1f0eb09f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6ef7f006.chunk.css.map": "/static/css/main.6ef7f006.chunk.css.map",
-    "static/js/2.fadb702b.chunk.js.LICENSE.txt": "/static/js/2.fadb702b.chunk.js.LICENSE.txt",
-    "static/media/IMG_1189.jpeg": "/static/media/IMG_1189.1bfa7192.jpeg"
+    "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
+    "static/css/main.6135efb7.chunk.css.map": "/static/css/main.6135efb7.chunk.css.map",
+    "static/js/2.f52a705d.chunk.js.LICENSE.txt": "/static/js/2.f52a705d.chunk.js.LICENSE.txt",
+    "static/media/IMG_1189.jpeg": "/static/media/IMG_1189.1bfa7192.jpeg",
+    "static/media/a118.png": "/static/media/a118.4ee2ee71.png",
+    "static/media/jo-screenshot.png": "/static/media/jo-screenshot.2a8b5d93.png",
+    "static/media/jo-screenshot2.png": "/static/media/jo-screenshot2.629d2607.png",
+    "static/media/jothefish.png": "/static/media/jothefish.1183c0b4.png",
+    "static/media/me.jpg": "/static/media/me.ceed61a2.jpg",
+    "static/media/purito-rebrand.png": "/static/media/purito-rebrand.c10ddc4f.png",
+    "static/media/purito-rebrand2.png": "/static/media/purito-rebrand2.bf5b5006.png",
+    "static/media/purito-rebrand3.png": "/static/media/purito-rebrand3.6a309844.png",
+    "static/media/purito-rebrand4.png": "/static/media/purito-rebrand4.6855895b.png",
+    "static/media/purito1.png": "/static/media/purito1.c10ddc4f.png",
+    "static/media/wikalang-01-01.png": "/static/media/wikalang-01-01.e571fad4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.95947104.js",
-    "static/js/2.fadb702b.chunk.js",
-    "static/css/main.6ef7f006.chunk.css",
-    "static/js/main.5c266281.chunk.js"
+    "static/css/2.3cf5d70f.chunk.css",
+    "static/js/2.f52a705d.chunk.js",
+    "static/css/main.6135efb7.chunk.css",
+    "static/js/main.61a47eca.chunk.js"
   ]
 }
