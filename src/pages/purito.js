@@ -9,10 +9,10 @@ export default function Purito() {
 
   return (
     <div className="main">
-        <img src={purito1} alt="purito1"></img>
         <h1>
-        Purito, Brand Redesign
+        Purito Brand Redesign
         </h1>
+        <img src={purito1} alt="purito1"></img>
         <p>
         Purito, a Korean-based skincare company, defines its brand philosophy with products crafted using only cruelty-free, clean, and honest ingredients. This product redesign hopes to represent Purito with a more contemporary aesthetic while still aligning with its "pure" prioties of using recycled and minimal packaging.
         </p>

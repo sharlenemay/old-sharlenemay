@@ -8,8 +8,8 @@ import jo2 from "../photos/jo-screenshot2.png";
 export default function Jo() {
   return (
     <div className="main">
-      <img src={jothefish} alt="jo the fish"></img>
       <h1> Jo the Fish</h1>
+      <img src={jothefish} alt="jo the fish"></img>
       <p>
         Jo the fish is a non-profit start-up dedicated to business and consumer
         transparency online around the world. I helped to create a responsive
