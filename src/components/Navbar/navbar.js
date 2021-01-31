@@ -17,10 +17,10 @@ export default function Navi() {
         {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navBar"> */}
-          <NavLink className="navLinks" activeClassName="active" to="/projects">
+          <NavLink className="navLinks" activeClassName="active" to="/media">
             media
           </NavLink>
-          <NavLink className="navLinks" activeClassName="active" to="/research">
+          <NavLink className="navLinks" activeClassName="active" to="/anthropology">
             anthropology
           </NavLink>
           {/* <NavLink className="navLinks" activeClassName="active" to="/contact">

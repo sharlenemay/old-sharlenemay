@@ -25,10 +25,10 @@ function App() {
           <Route exact path="/">
             <About />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path="/media">
             <Portfolio />
           </Route>
-          <Route exact path="/research">
+          <Route exact path="/anthropology">
             <Research />
           </Route>
           <Route exact path="/jothefish">
