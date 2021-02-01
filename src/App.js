@@ -9,7 +9,7 @@ import Research from "./pages/Research";
 import Jo from "./pages/Jo";
 import Wikalang from "./pages/Wikalang";
 import Anthro118 from "./pages/A118";
-import Purito from "./pages/purito";
+import Purito from "./pages/Purito";
 import Footer from "./components/Footer/footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 

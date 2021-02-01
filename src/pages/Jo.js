@@ -18,12 +18,12 @@ export default function Jo() {
         Extension.
       </p>
       <p>
-        For this project, I collaborate closely with and
-        facilitate communication between the Design and Development teams.
+        For this project, I collaborate closely with and facilitate
+        communication between the Design and Development teams.
       </p>
       <a href="https://www.jothefish.com/" target="_blank">
-          Visit the site here.
-        </a>
+        Visit the site here.
+      </a>
       <img src={jo1} alt="google chrome extension"></img>
       <img src={jo2} className="body-img" alt="screenshot"></img>
     </div>
