@@ -17,7 +17,7 @@ function Footer() {
       <div>
       <a href="https://github.com/sharlenemay" target="_blank">Github</a>
       <br />
-      <a href="https://instagram.com/yamenelrahs" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/smminosa/" target="_blank">LinkedIn</a>
       </div>
       </Col>
       </Row>
