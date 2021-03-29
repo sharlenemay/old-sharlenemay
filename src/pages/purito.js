@@ -14,7 +14,7 @@ export default function Purito() {
         Purito, a Korean-based skincare company, defines its brand philosophy
         with products crafted using only cruelty-free, clean, and honest
         ingredients. This product redesign hopes to represent Purito with a more
-        contemporary aesthetic while still aligning with its "pure" prioties of
+        contemporary aesthetic while still aligning with its "pure" priorities of
         using recycled and minimal packaging.
       </p>
       <p>
