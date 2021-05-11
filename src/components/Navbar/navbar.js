@@ -40,6 +40,7 @@ export default function Navi() {
         {/* </Nav>
       </Navbar.Collapse> */}
       </Navbar>
+      <hr/>
     </div>
   );
 }

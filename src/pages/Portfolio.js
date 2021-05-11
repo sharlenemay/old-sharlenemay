@@ -8,10 +8,10 @@ import "./styles.css";
 
 export default function Portfolio() {
   function fade(e) {
-    e.target.style.opacity = "0.75";
+    // e.target.style.opacity = "0.75";
   }
   function fadeOut(e) {
-    e.target.style.opacity = "1";
+    // e.target.style.opacity = "1";
   }
 
   return (
@@ -25,7 +25,7 @@ export default function Portfolio() {
         </h4>
       </Row> */}
       <Row>
-      <Col xs={12} sm={12} md={6} lg={6}>
+      <Col s={12} sm={12} md={12} lg={12} xl={6}>
           <Link to="/purito">
             <img
               src={purito}
@@ -37,7 +37,7 @@ export default function Portfolio() {
             <h5>Purito, Brand Redesign Project</h5>
           </Link>
         </Col>
-        <Col xs={12} sm={12} md={6} lg={6}>
+        <Col s={12} sm={12} md={12} lg={12} xl={6}>
           <Link to="/jothefish">
             <img
               src={jothefish}

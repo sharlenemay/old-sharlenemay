@@ -5,20 +5,23 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
+      <hr/>
       <Row>
       <Col>
-      <h5>
+      <h6>
       &copy;Sharlene May Minosa
       <br/>
-      <a href="mailto:sminosa@bu.edu">sminosa@bu.edu</a>
-      </h5>
+      <a href="mailto:sminosa@bu.edu/">sminosa@bu.edu</a>
+      </h6>
       </Col>
       <Col id="footer-right">
-      <div>
       <a href="https://github.com/sharlenemay" target="_blank">Github</a>
-      <br />
+      </Col>
+      <Col>
       <a href="https://www.linkedin.com/in/smminosa/" target="_blank">LinkedIn</a>
-      </div>
+      </Col>
+      <Col>
+      <a href="https://drive.google.com/file/d/19sg9yxJVIziKwa6cbchzC11Z8r9xwUmX/view?usp=sharing" target="_blank">Resume</a>
       </Col>
       </Row>
     </div>

@@ -7,28 +7,31 @@ export default function About() {
   return (
     <div className="main">
       <Row>
-      <Col xs={12} sm={12} md={6} lg={6}>
-        <img src={img} alt="autumn colors"></img>
+        <Col xs={12} sm={12} md={12} lg={12} xl={6}>
+          <img src={img} className="bw-hover" alt="autumn colors"></img>
         </Col>
-        <Col xs={12} sm={12} md={6} lg={6}>
-          <h3 className="green">
-            User Researcher, Experience Designer
-            {/* My mission in life is not merely to survive, but to thrive; and to
-            do so with some passion, some compassion, some humor, and some
-            style. - Maya Angelou */}
+        <Col s={12} sm={12} md={12} lg={12} xl={6}>
+          <h3>
+            Product Designer and Developer dedicated to creating meaningful user
+            experiences through inclusive design and conscious research.
           </h3>
-          <h5>About</h5>
-          <p>I'm Sharlene May, a UX Researcher and Designer interested in all things human and digital.</p>
+          <hr />
           <p>
+            I’m Sharlene, an enthusiastic designer/developer interested in all things
+            human and digital. With skills in media research, design, and coding, I approach product development from a holistic perspective.
+            My goal is to bring people together through
+            human-centered UX engineering and by using tech sustainably and ethically.
+          </p>
+          {/* <p>
             Since graduating with a Double B.A. in Anthropology and Asian
-            Humanities, I've worked in non-profit and business settings near
-            and far; from my home city of Los Angeles to the suburbs of Tokyo
-            and rural Japan. Having experienced life in different parts of the
+            Humanities, I've worked in non-profit and business settings near and
+            far; from my home city of Los Angeles to the suburbs of Tokyo and
+            rural Japan. Having experienced life in different parts of the
             world, my goal is to bring people together through the development
             of inclusive UX Engineering and the optimization of human-centered
             interaction design across cultural contexts.
-          </p>
-          <h5>Education</h5>
+          </p> */}
+          {/* <h5>Education</h5>
           <p>
             Boston University, College of Communication (BU COM)
             <br />
@@ -40,9 +43,10 @@ export default function About() {
             <br />
             Bachelor of Arts in Anthropology, Bachelor of Arts in Asian
             Humanities - Magna Cum Laude 2018
-          </p>
+          </p> */}
+          <hr />
+          <p>Currently based in Boston, Massachusetts as a full-time graduate student, part-time dog-sitter.</p>
         </Col>
-
       </Row>
     </div>
   );
