@@ -18,10 +18,10 @@ export default function Navi() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="navBar"> */}
           <NavLink className="navLinks" activeClassName="active" to="/media">
-            media
+            portfolio
           </NavLink>
           <NavLink className="navLinks" activeClassName="active" to="/anthropology">
-            anthropology
+            writing
           </NavLink>
           {/* <NavLink className="navLinks" activeClassName="active" to="/contact">
             contact

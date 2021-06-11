@@ -58,11 +58,11 @@ a {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-.project:hover {
-  /* filter: none;
+/* .project:hover {
+  filter: none;
   -webkit-filter: grayscale(0);
-  transition: .5s ease; */
-}
+  transition: .5s ease;
+} */
 
 .bw-hover {
   filter: grayscale(100%);

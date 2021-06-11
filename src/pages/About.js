@@ -45,7 +45,7 @@ export default function About() {
             Humanities - Magna Cum Laude 2018
           </p> */}
           <hr />
-          <p>Currently based in Boston, Massachusetts as a full-time graduate student, part-time dog-sitter.</p>
+          <p>I was born and raised in Los Angeles, California, but I'm currently based in Boston, Massachusetts as a full-time graduate student, part-time dog-sitter.</p>
         </Col>
       </Row>
     </div>
